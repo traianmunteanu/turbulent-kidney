@@ -238,12 +238,15 @@ header .header-content .header-content-inner h2 {
 
 @media(min-width:992px) {
     .service-box {
-        margin: 20px auto 0;
+        margin: 20px auto 15px;
     }
 }
 
-.service-box p {
-    margin-bottom: 0;
+.service-box ul li {
+    list-style-type: disc;
+    text-align: left;
+    line-height: 1.6em;
+    font-size: 1em;
 }
 
 .portfolio-box {
