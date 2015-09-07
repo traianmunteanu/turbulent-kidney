@@ -82,12 +82,22 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #68B8DB;
+    background: ;
+    min-height: 100%;
+    background: url('../img/img-bg.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    position: relative;
 }
 
-header .container {
+header.container {
     padding-top: 50px;
     padding-bottom: 50px;
+    position: absolute;
+    min-height: 100%;
 }
 
 header img {
@@ -143,7 +153,8 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1em;
+        font-size: 1.2em;
+        color: #222;
     }
 }
 
@@ -163,6 +174,10 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+}
+.navbar .navbar-nav li a:hover {
+    outline: 0;
+    color: #222;
 }
 
 .navbar-default,
